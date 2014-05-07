@@ -1,0 +1,30 @@
+--- lyl_old.c	2014-05-07 16:55:53.641218615 +0800
++++ lyl_new.c	2014-05-07 16:53:53.644631976 +0800
+@@ -1,12 +1,12 @@
+ /*
+  * =====================================================================================
+  *
+- *       Filename:  lyl_old.c
++ *       Filename:  lyl_new.c
+  *
+  *    Description:  
+  *
+  *        Version:  1.0
+- *        Created:  2014年05月07日 16时21分03秒
++ *        Created:  2014年05月07日 16时25分19秒
+  *       Revision:  none
+  *       Compiler:  gcc
+  *
+@@ -17,9 +17,10 @@
+  */
+ #include <stdio.h>
+ #include <stdlib.h>
++#define N 15
+ main()
+ {
+-	char *p="Hello";
++	char p[N]="Hello";
+ 	strcat(p,"World");
+ 	printf("p is %s.\n",p);
+-}
++} 
